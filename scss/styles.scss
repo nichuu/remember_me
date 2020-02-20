@@ -174,7 +174,7 @@ header {
         &:hover {
             color: $base-color-hover;
             text-decoration: none;
-            background: #eee;
+            background: #1b1a1b;
             border-radius: 4px;
         }
 
@@ -350,7 +350,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/lead-bg.gif);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -393,7 +393,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.8);
+   
     z-index: 1;
 }
 
@@ -406,6 +406,7 @@ footer {
     z-index: 10;
     bottom: 15px;
     color: #fff;
+    
 
     span {
         cursor: pointer;
