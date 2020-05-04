@@ -387,7 +387,7 @@
     curvedLines: false,
     proximity: 500, // How close two dots need to be before they join
     parallax: true,
-    parallaxMultiplier: 3, // The lower the number, the more extreme the parallax effect
+    parallaxMultiplier: 2, // The lower the number, the more extreme the parallax effect
     onInit: function() {},
     onDestroy: function() {}
   };
